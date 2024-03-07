@@ -25,4 +25,4 @@ git clone https://github.com/Jovany-Vergara/app-streaming-webcam.git
 
 ## Para iniciar el servidor, ejecuta:
 
-- node server.js
+- npm start
