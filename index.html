@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>App Streaming Webcam</title>
+</head>
+
+<body>
+  <div class="alert alert-primary" role="alert">
+    <h1>Hola esto es una prueba de webcam con node.js!</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>Webcam</h2>
+        <video id="webcam" autoplay></video>
+        <button id="start">Iniciar Streaming</button>
+        <button id="stop">Detener Streaming</button>
+      </div>
+      <div class="col">
+        <h2>Emisión en directo</h2>
+        <img class="stream-image" id="stream" src="">
+      </div>
+    </div>
+  </div>
+
+  <!-- Incluir Socket.IO -->
+  <script src="/socket.io/socket.io.js"></script>
+  <!-- Incluir tu archivo main.js -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
