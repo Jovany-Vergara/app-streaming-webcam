@@ -17,6 +17,6 @@ io.on('connection', (socket) => {
   console.log('A user connected');
 
   socket.on('stream', (image) => {
-    io.emit('stream', image); // Cambia esta línea
+    io.emit('stream', image);
   });
 });
